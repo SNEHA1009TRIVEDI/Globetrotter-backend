@@ -8,6 +8,9 @@ export class Location {
   @Column({ type: 'text', nullable: true })
   country: string;
 
+  @Column({ type: 'text', nullable: true })
+  city: string;
+
   @Column({ type: 'simple-array', nullable: true })
   funFacts: string[]; // Supports multiple fun facts
 

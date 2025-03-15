@@ -1,0 +1,1508 @@
+[
+    {
+      "city": "Mumbai",
+      "country": "India",
+      "aiGeneratedHints": [
+        "This city is home to Bollywood, India's film industry.",
+        "It has a famous landmark called the Gateway of India."
+      ],
+      "funFact": [
+        "This city was originally a group of seven islands.",
+        "It has one of the world's busiest train systems, carrying over 7.5 million passengers daily."
+      ],
+      "trivia": [
+        "Which Indian city is known as the financial capital of India?",
+        "What is the name of the famous sea-facing promenade in this city?"
+      ]
+    },
+    {
+      "city": "New York",
+      "country": "United States",
+      "aiGeneratedHints": [
+        "This city is home to the Statue of Liberty.",
+        "It has a famous park called Central Park."
+      ],
+      "funFact": [
+        "This city has over 800 languages spoken, making it the most linguistically diverse city in the world.",
+        "It was once called New Amsterdam."
+      ],
+      "trivia": [
+        "Which U.S. city is known as the Big Apple?",
+        "What is the name of the famous district known for its Broadway theaters?"
+      ]
+    },
+    {
+      "city": "Los Angeles",
+      "country": "United States",
+      "aiGeneratedHints": [
+        "This city is known as the entertainment capital of the world.",
+        "It has a famous sign that originally read 'Hollywoodland'."
+      ],
+      "funFact": [
+        "This city has more than 300 days of sunshine per year.",
+        "It is home to the largest historical theater district in the U.S."
+      ],
+      "trivia": [
+        "Which U.S. city is home to the Walk of Fame?",
+        "What is the name of the famous theme park founded by Walt Disney in this city?"
+      ]
+    },
+    {
+      "city": "Chicago",
+      "country": "United States",
+      "aiGeneratedHints": [
+        "This city is known as the Windy City.",
+        "It has a famous landmark called the Willis Tower."
+      ],
+      "funFact": [
+        "This city reversed the flow of its river in the 19th century.",
+        "It is home to the world’s first skyscraper."
+      ],
+      "trivia": [
+        "Which U.S. city is famous for its deep-dish pizza?",
+        "What is the name of the large public park that hosts the famous Cloud Gate sculpture?"
+      ]
+    },
+    {
+      "city": "San Francisco",
+      "country": "United States",
+      "aiGeneratedHints": [
+        "This city has a famous red suspension bridge.",
+        "It was destroyed by a major earthquake in 1906."
+      ],
+      "funFact": [
+        "This city has the steepest streets in the U.S.",
+        "It is home to the oldest Chinatown in North America."
+      ],
+      "trivia": [
+        "Which U.S. city is home to the Golden Gate Bridge?",
+        "What is the name of the former prison island located in this city's bay?"
+      ]
+    },
+    {
+      "city": "Houston",
+      "country": "United States",
+      "aiGeneratedHints": [
+        "This city is home to NASA’s Space Center.",
+        "It is the largest city in Texas by population."
+      ],
+      "funFact": [
+        "This city has no formal zoning laws.",
+        "It has the largest medical center in the world."
+      ],
+      "trivia": [
+        "Which U.S. city is famous for the phrase 'Houston, we have a problem'?",
+        "What is the name of the famous rodeo held annually in this city?"
+      ]
+    },
+    {
+      "city": "Miami",
+      "country": "United States",
+      "aiGeneratedHints": [
+        "This city has a famous neighborhood called Little Havana.",
+        "It is known for its Art Deco architecture."
+      ],
+      "funFact": [
+        "This city is the only major U.S. city founded by a woman.",
+        "It has the largest cruise port in the world."
+      ],
+      "trivia": [
+        "Which U.S. city is famous for its South Beach area?",
+        "What is the name of the street known for its Cuban culture and cafés in this city?"
+      ]
+    },
+    {
+      "city": "Boston",
+      "country": "United States",
+      "aiGeneratedHints": [
+        "This city is one of the oldest in the United States.",
+        "It played a key role in the American Revolution."
+      ],
+      "funFact": [
+        "This city is home to the oldest public park in the U.S.",
+        "It has the first subway system in the U.S."
+      ],
+      "trivia": [
+        "Which U.S. city is home to Fenway Park?",
+        "What is the name of the famous trail that leads to historic sites from the American Revolution?"
+      ]
+    },
+    {
+      "city": "London",
+      "country": "United Kingdom",
+      "aiGeneratedHints": [
+        "This city is home to Buckingham Palace.",
+        "It has a famous clock tower called Big Ben."
+      ],
+      "funFact": [
+        "This city has the oldest underground railway system in the world.",
+        "It was once the largest city in the world."
+      ],
+      "trivia": [
+        "Which European city has the River Thames flowing through it?",
+        "What is the name of the famous Ferris wheel in this city?"
+      ]
+    },
+    {
+      "city": "Paris",
+      "country": "France",
+      "aiGeneratedHints": [
+        "This city is known as the City of Light.",
+        "It has a famous tower that was once the tallest structure in the world."
+      ],
+      "funFact": [
+        "This city has the most visited museum in the world.",
+        "It was originally a Roman settlement called Lutetia."
+      ],
+      "trivia": [
+        "Which European city is home to the Eiffel Tower?",
+        "What is the name of the famous avenue leading to the Arc de Triomphe?"
+      ]
+    },
+    {
+      "city": "Rome",
+      "country": "Italy",
+      "aiGeneratedHints": [
+        "This city is known as the Eternal City.",
+        "It has a famous ancient amphitheater called the Colosseum."
+      ],
+      "funFact": [
+        "This city is home to an independent country within its borders.",
+        "It has more fountains than any other city in the world."
+      ],
+      "trivia": [
+        "Which European city is home to the Vatican City?",
+        "What is the name of the famous wishing fountain in this city?"
+      ]
+    },
+    {
+      "city": "Berlin",
+      "country": "Germany",
+      "aiGeneratedHints": [
+        "This city was divided by a wall until 1989.",
+        "It is the capital of Germany."
+      ],
+      "funFact": [
+        "This city has more bridges than Venice.",
+        "It is home to the world’s longest beer garden."
+      ],
+      "trivia": [
+        "Which European city is known for the Brandenburg Gate?",
+        "What is the name of the famous wall that once divided this city?"
+      ]
+    },
+    {
+      "city": "Madrid",
+      "country": "Spain",
+      "aiGeneratedHints": [
+        "This city is home to the Royal Palace of Spain.",
+        "It has a famous square called Puerta del Sol."
+      ],
+      "funFact": [
+        "This city is located in the exact center of Spain.",
+        "It is one of the highest capital cities in Europe."
+      ],
+      "trivia": [
+        "Which European city is home to the Prado Museum?",
+        "What is the name of the famous football club based in this city?"
+      ]
+    },
+    {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "aiGeneratedHints": [
+        "This city is known for its canals and bicycles.",
+        "It has a famous museum dedicated to a girl who hid during WWII."
+      ],
+      "funFact": [
+        "This city has more bicycles than residents.",
+        "Its houses are built on wooden stilts due to the soft ground."
+      ],
+      "trivia": [
+        "Which European city is home to the Anne Frank House?",
+        "What is the name of the famous museum that houses Rembrandt’s paintings?"
+      ]
+    },
+    {
+      "city": "Athens",
+      "country": "Greece",
+      "aiGeneratedHints": [
+        "This city is known as the birthplace of democracy.",
+        "It has a famous ancient temple called the Parthenon."
+      ],
+      "funFact": [
+        "This city is one of the oldest continuously inhabited cities in the world.",
+        "The Olympic Games were revived here in 1896."
+      ],
+      "trivia": [
+        "Which European city is home to the Acropolis?",
+        "What is the name of the famous marketplace in ancient Greece located in this city?"
+      ]
+    },
+    {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "aiGeneratedHints": [
+        "This city is the capital of Portugal.",
+        "It is famous for its historic yellow trams."
+      ],
+      "funFact": [
+        "This city was almost completely rebuilt after a massive earthquake in 1755.",
+        "It is home to one of the oldest bookshops in the world."
+      ],
+      "trivia": [
+        "Which European city is known for the Belém Tower?",
+        "What is the name of the iconic custard tart that originated in this city?"
+      ]
+    },
+    {
+      "city": "Beijing",
+      "country": "China",
+      "aiGeneratedHints": [
+        "This city is the capital of China.",
+        "It is home to the Forbidden City."
+      ],
+      "funFact": [
+        "This city has six UNESCO World Heritage Sites.",
+        "The Great Wall of China is accessible from this city."
+      ],
+      "trivia": [
+        "Which Chinese city hosted the 2008 and 2022 Olympic Games?",
+        "What is the name of the famous square in this city that is one of the largest public squares in the world?"
+      ]
+    },
+    {
+      "city": "Shanghai",
+      "country": "China",
+      "aiGeneratedHints": [
+        "This city is the financial hub of China.",
+        "It has a famous skyline featuring the Oriental Pearl Tower."
+      ],
+      "funFact": [
+        "This city has the world’s fastest commercial train.",
+        "It is home to one of the busiest container ports in the world."
+      ],
+      "trivia": [
+        "Which Chinese city is known for The Bund?",
+        "What is the name of the famous pedestrian street in this city?"
+      ]
+    },
+    {
+      "city": "Shenzhen",
+      "country": "China",
+      "aiGeneratedHints": [
+        "This city is known as China's Silicon Valley.",
+        "It borders Hong Kong."
+      ],
+      "funFact": [
+        "This city was a small fishing village before becoming a tech hub.",
+        "It has the world's largest electronics market, Huaqiangbei."
+      ],
+      "trivia": [
+        "Which Chinese city is home to Tencent’s headquarters?",
+        "What is the name of the theme park in this city that features miniatures of world landmarks?"
+      ]
+    },
+    {
+      "city": "Chengdu",
+      "country": "China",
+      "aiGeneratedHints": [
+        "This city is famous for being the home of giant pandas.",
+        "It is known for its spicy Sichuan cuisine."
+      ],
+      "funFact": [
+        "This city has the world's largest building by floor area.",
+        "It has a research base dedicated to panda conservation."
+      ],
+      "trivia": [
+        "Which Chinese city is known for the Sichuan Opera face-changing performance?",
+        "What is the name of the famous spicy hotpot dish from this city?"
+      ]
+    },
+    {
+      "city": "Xi’an",
+      "country": "China",
+      "aiGeneratedHints": [
+        "This city was the starting point of the ancient Silk Road.",
+        "It is home to the Terracotta Army."
+      ],
+      "funFact": [
+        "This city was the capital of China for 13 dynasties.",
+        "Its ancient city wall is one of the best-preserved in China."
+      ],
+      "trivia": [
+        "Which Chinese city has the Big Wild Goose Pagoda?",
+        "What is the name of the emperor whose tomb is guarded by the Terracotta Army?"
+      ]
+    },
+    {
+      "city": "Hangzhou",
+      "country": "China",
+      "aiGeneratedHints": [
+        "This city is famous for West Lake.",
+        "It is home to the headquarters of Alibaba."
+      ],
+      "funFact": [
+        "This city was praised by Marco Polo as ‘the most beautiful in the world.’",
+        "It is known for producing Longjing (Dragon Well) tea."
+      ],
+      "trivia": [
+        "Which Chinese city hosted the 2016 G20 Summit?",
+        "What is the name of the famous silk-producing street in this city?"
+      ]
+    },
+    {
+      "city": "Wuhan",
+      "country": "China",
+      "aiGeneratedHints": [
+        "This city is the capital of Hubei province.",
+        "It is located at the confluence of the Yangtze and Han rivers."
+      ],
+      "funFact": [
+        "This city is home to the Yellow Crane Tower.",
+        "It has one of China's largest freshwater lakes, East Lake."
+      ],
+      "trivia": [
+        "Which Chinese city is known for its famous hot dry noodles?",
+        "What is the name of the major university located in this city?"
+      ]
+    },
+    {
+      "city": "Nanjing",
+      "country": "China",
+      "aiGeneratedHints": [
+        "This city was once the capital of China.",
+        "It is known for the Sun Yat-sen Mausoleum."
+      ],
+      "funFact": [
+        "This city was an important cultural and political center for centuries.",
+        "It has one of the largest city walls in the world."
+      ],
+      "trivia": [
+        "Which Chinese city is home to the Ming Xiaoling Mausoleum?",
+        "What is the name of the river that flows through this city?"
+      ]
+    },
+    {
+      "city": "Tokyo",
+      "country": "Japan",
+      "aiGeneratedHints": [
+        "This city is the capital of Japan.",
+        "It is home to the world's busiest pedestrian crossing, Shibuya Crossing."
+      ],
+      "funFact": [
+        "This city was formerly known as Edo.",
+        "It has the tallest tower in the world, the Tokyo Skytree."
+      ],
+      "trivia": [
+        "Which Japanese city hosted the 2020 Summer Olympics?",
+        "What is the name of the famous shopping district in this city known for luxury brands?"
+      ]
+    },
+    {
+      "city": "Kyoto",
+      "country": "Japan",
+      "aiGeneratedHints": [
+        "This city is known for its traditional temples and shrines.",
+        "It was the former imperial capital of Japan."
+      ],
+      "funFact": [
+        "This city has over 1,600 Buddhist temples.",
+        "It is famous for its Geisha culture in the Gion district."
+      ],
+      "trivia": [
+        "Which Japanese city is home to the Fushimi Inari Shrine?",
+        "What is the name of the famous golden temple in this city?"
+      ]
+    },
+    {
+      "city": "Osaka",
+      "country": "Japan",
+      "aiGeneratedHints": [
+        "This city is known as Japan’s kitchen.",
+        "It has a famous landmark called Osaka Castle."
+      ],
+      "funFact": [
+        "This city is home to Japan’s first Universal Studios theme park.",
+        "It is famous for its street food like takoyaki and okonomiyaki."
+      ],
+      "trivia": [
+        "Which Japanese city is known for its neon-lit district, Dotonbori?",
+        "What is the name of the famous amusement park in this city?"
+      ]
+    },
+    {
+      "city": "Hiroshima",
+      "country": "Japan",
+      "aiGeneratedHints": [
+        "This city was the first in the world to suffer an atomic bombing.",
+        "It is home to the Peace Memorial Park."
+      ],
+      "funFact": [
+        "This city rebuilt itself as a symbol of peace.",
+        "It is famous for Hiroshima-style okonomiyaki."
+      ],
+      "trivia": [
+        "Which Japanese city is home to the Atomic Bomb Dome?",
+        "What is the name of the sacred island near this city with the floating torii gate?"
+      ]
+    },
+    {
+      "city": "Nagoya",
+      "country": "Japan",
+      "aiGeneratedHints": [
+        "This city is a major automotive industry hub in Japan.",
+        "It is home to the famous Nagoya Castle."
+      ],
+      "funFact": [
+        "This city is the birthplace of Toyota.",
+        "It has the largest train station building in the world by floor area."
+      ],
+      "trivia": [
+        "Which Japanese city has the SCMaglev and Railway Park?",
+        "What is the name of the famous shopping street in this city?"
+      ]
+    },
+    {
+      "city": "Sapporo",
+      "country": "Japan",
+      "aiGeneratedHints": [
+        "This city is the largest in Hokkaido.",
+        "It is famous for hosting the Snow Festival."
+      ],
+      "funFact": [
+        "This city was the site of the first Winter Olympics in Asia.",
+        "It is known for its miso ramen and beer production."
+      ],
+      "trivia": [
+        "Which Japanese city is home to the Sapporo Beer Museum?",
+        "What is the name of the famous park in this city known for its festival?"
+      ]
+    },
+    {
+      "city": "Fukuoka",
+      "country": "Japan",
+      "aiGeneratedHints": [
+        "This city is known for its tonkotsu ramen.",
+        "It is the largest city in Kyushu."
+      ],
+      "funFact": [
+        "This city is famous for its yatai (street food stalls).",
+        "It is closer to Seoul than it is to Tokyo."
+      ],
+      "trivia": [
+        "Which Japanese city has the famous Canal City shopping complex?",
+        "What is the name of the ancient shrine in this city dedicated to maritime safety?"
+      ]
+    },
+    {
+      "city": "Kobe",
+      "country": "Japan",
+      "aiGeneratedHints": [
+        "This city is known for its world-famous beef.",
+        "It was devastated by the Great Hanshin Earthquake in 1995."
+      ],
+      "funFact": [
+        "This city is one of Japan’s major port cities.",
+        "It is famous for its stunning night views from Mount Rokko."
+      ],
+      "trivia": [
+        "Which Japanese city is home to the Ikuta Shrine?",
+        "What is the name of the famous district in this city known for its western-style houses?"
+      ]
+    },
+    {
+      "city": "Toronto",
+      "country": "Canada",
+      "aiGeneratedHints": [
+        "This city is the largest in Canada.",
+        "It is home to the CN Tower."
+      ],
+      "funFact": [
+        "This city has one of the most diverse populations in the world.",
+        "It is the financial capital of Canada."
+      ],
+      "trivia": [
+        "Which Canadian city is home to the Hockey Hall of Fame?",
+        "What is the name of the large underground shopping complex in this city?"
+      ]
+    },
+    {
+      "city": "Vancouver",
+      "country": "Canada",
+      "aiGeneratedHints": [
+        "This city is surrounded by mountains and water.",
+        "It hosted the 2010 Winter Olympics."
+      ],
+      "funFact": [
+        "This city has the largest port in Canada.",
+        "It is known for its film and television industry, earning it the nickname 'Hollywood North'."
+      ],
+      "trivia": [
+        "Which Canadian city is home to Stanley Park?",
+        "What is the name of the famous suspension bridge in this city?"
+      ]
+    },
+    {
+      "city": "Montreal",
+      "country": "Canada",
+      "aiGeneratedHints": [
+        "This city is the second-largest French-speaking city in the world.",
+        "It is known for its bagels and poutine."
+      ],
+      "funFact": [
+        "This city hosts the world's largest jazz festival.",
+        "It has an extensive underground city to escape the cold winters."
+      ],
+      "trivia": [
+        "Which Canadian city is home to the Notre-Dame Basilica?",
+        "What is the name of the famous Formula 1 race held in this city?"
+      ]
+    },
+    {
+      "city": "Calgary",
+      "country": "Canada",
+      "aiGeneratedHints": [
+        "This city is known for hosting the annual Stampede.",
+        "It is located near the Rocky Mountains."
+      ],
+      "funFact": [
+        "This city hosted the 1988 Winter Olympics.",
+        "It is one of the sunniest cities in Canada."
+      ],
+      "trivia": [
+        "Which Canadian city has a tower resembling the Space Needle?",
+        "What is the name of the world-famous rodeo festival held in this city?"
+      ]
+    },
+    {
+      "city": "Edmonton",
+      "country": "Canada",
+      "aiGeneratedHints": [
+        "This city is the capital of Alberta.",
+        "It is home to one of the largest malls in the world."
+      ],
+      "funFact": [
+        "This city has North America’s largest stretch of urban parkland.",
+        "It is nicknamed 'Canada’s Festival City'."
+      ],
+      "trivia": [
+        "Which Canadian city is home to West Edmonton Mall?",
+        "What is the name of the river that flows through this city?"
+      ]
+    },
+    {
+      "city": "Ottawa",
+      "country": "Canada",
+      "aiGeneratedHints": [
+        "This city is the capital of Canada.",
+        "It is home to the Rideau Canal."
+      ],
+      "funFact": [
+        "This city hosts Canada Day celebrations at Parliament Hill.",
+        "It has the world's largest ice-skating rink in the winter."
+      ],
+      "trivia": [
+        "Which Canadian city is home to the National Gallery of Canada?",
+        "What is the name of the famous winter festival held in this city?"
+      ]
+    },
+    {
+      "city": "Quebec City",
+      "country": "Canada",
+      "aiGeneratedHints": [
+        "This city is the capital of Quebec province.",
+        "It is famous for its European-style architecture."
+      ],
+      "funFact": [
+        "This city is home to Château Frontenac, the most photographed hotel in the world.",
+        "It is one of the oldest cities in North America."
+      ],
+      "trivia": [
+        "Which Canadian city hosts the Winter Carnival?",
+        "What is the name of the historic area in this city known for its cobblestone streets?"
+      ]
+    },
+    {
+      "city": "Winnipeg",
+      "country": "Canada",
+      "aiGeneratedHints": [
+        "This city is located in the province of Manitoba.",
+        "It is home to the Canadian Museum for Human Rights."
+      ],
+      "funFact": [
+        "This city is known as the 'Gateway to the West'.",
+        "It has one of the coldest winters of any major Canadian city."
+      ],
+      "trivia": [
+        "Which Canadian city is home to the Assiniboine Park Zoo?",
+        "What is the name of the famous intersection in this city known for extreme weather?"
+      ]
+    },
+    {
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "aiGeneratedHints": [
+        "This city is home to the world's tallest building.",
+        "It is famous for its artificial islands shaped like a palm tree."
+      ],
+      "funFact": [
+        "This city has the world’s busiest airport for international passengers.",
+        "It is home to the largest shopping mall in the world."
+      ],
+      "trivia": [
+        "Which Middle Eastern city has the Burj Khalifa?",
+        "What is the name of the artificial island in this city?"
+      ]
+    },
+    {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "aiGeneratedHints": [
+        "This city is the capital of Saudi Arabia.",
+        "It is one of the wealthiest cities in the Middle East."
+      ],
+      "funFact": [
+        "This city is known for its futuristic architecture.",
+        "It hosts the largest camel market in the world."
+      ],
+      "trivia": [
+        "Which Middle Eastern city has the Kingdom Centre Tower?",
+        "What is the name of the annual cultural festival held here?"
+      ]
+    },
+    {
+      "city": "Jerusalem",
+      "country": "Israel",
+      "aiGeneratedHints": [
+        "This city is considered holy by three major religions.",
+        "It is home to the Western Wall and Al-Aqsa Mosque."
+      ],
+      "funFact": [
+        "This city has been continuously inhabited for over 5,000 years.",
+        "It is known as the City of Gold due to the color of its stone buildings."
+      ],
+      "trivia": [
+        "Which Middle Eastern city is home to the Dome of the Rock?",
+        "What is the name of the historic marketplace in this city?"
+      ]
+    },
+    {
+      "city": "Cairo",
+      "country": "Egypt",
+      "aiGeneratedHints": [
+        "This city is the capital of Egypt.",
+        "It is home to one of the Seven Wonders of the Ancient World."
+      ],
+      "funFact": [
+        "This city is known as the 'City of a Thousand Minarets'.",
+        "It has the largest population of any city in the Middle East."
+      ],
+      "trivia": [
+        "Which Middle Eastern city is home to the Pyramids of Giza?",
+        "What is the name of the famous bazaar in this city?"
+      ]
+    },
+    {
+      "city": "Doha",
+      "country": "Qatar",
+      "aiGeneratedHints": [
+        "This city is the capital of Qatar.",
+        "It hosted the FIFA World Cup in 2022."
+      ],
+      "funFact": [
+        "This city has one of the highest GDP per capita in the world.",
+        "It is home to the world-famous Museum of Islamic Art."
+      ],
+      "trivia": [
+        "Which Middle Eastern city has The Pearl-Qatar artificial island?",
+        "What is the name of the main corniche road along the coast in this city?"
+      ]
+    },
+    {
+      "city": "Baghdad",
+      "country": "Iraq",
+      "aiGeneratedHints": [
+        "This city was the center of learning during the Islamic Golden Age.",
+        "It is the capital of Iraq."
+      ],
+      "funFact": [
+        "This city was once home to the legendary House of Wisdom.",
+        "It was founded in 762 AD as the capital of the Abbasid Caliphate."
+      ],
+      "trivia": [
+        "Which Middle Eastern city was once the largest in the world?",
+        "What is the name of the famous bridge that connects the eastern and western parts of this city?"
+      ]
+    },
+    {
+      "city": "Beirut",
+      "country": "Lebanon",
+      "aiGeneratedHints": [
+        "This city is the capital of Lebanon.",
+        "It is known as the 'Paris of the Middle East'."
+      ],
+      "funFact": [
+        "This city has been destroyed and rebuilt seven times.",
+        "It has a vibrant nightlife and cultural scene."
+      ],
+      "trivia": [
+        "Which Middle Eastern city is home to the American University of Beirut?",
+        "What is the name of the famous seaside promenade in this city?"
+      ]
+    },
+    {
+      "city": "Muscat",
+      "country": "Oman",
+      "aiGeneratedHints": [
+        "This city is the capital of Oman.",
+        "It is known for its beautiful coastline and traditional souks."
+      ],
+      "funFact": [
+        "This city is home to the Sultan Qaboos Grand Mosque.",
+        "It has one of the largest natural harbors in the world."
+      ],
+      "trivia": [
+        "Which Middle Eastern city has the Mutrah Souq?",
+        "What is the name of the famous opera house in this city?"
+      ]
+    },
+    {
+      "city": "Lagos",
+      "country": "Nigeria",
+      "aiGeneratedHints": [
+        "This city is the largest in Nigeria.",
+        "It is one of the fastest-growing cities in the world."
+      ],
+      "funFact": [
+        "This city has the busiest port in West Africa.",
+        "It is known for its vibrant music and film industry, Nollywood."
+      ],
+      "trivia": [
+        "Which African city is home to the Third Mainland Bridge?",
+        "What is the name of the famous beach in this city?"
+      ]
+    },
+    {
+      "city": "Nairobi",
+      "country": "Kenya",
+      "aiGeneratedHints": [
+        "This city is the capital of Kenya.",
+        "It has a national park within the city limits."
+      ],
+      "funFact": [
+        "This city is known as the 'Green City in the Sun'.",
+        "It is home to the only national park located in a capital city."
+      ],
+      "trivia": [
+        "Which African city is home to the Karen Blixen Museum?",
+        "What is the name of the famous market in this city?"
+      ]
+    },
+    {
+      "city": "Cape Town",
+      "country": "South Africa",
+      "aiGeneratedHints": [
+        "This city is known for Table Mountain.",
+        "It was the first European settlement in South Africa."
+      ],
+      "funFact": [
+        "This city is home to Robben Island, where Nelson Mandela was imprisoned.",
+        "It is known for its stunning beaches and wine regions."
+      ],
+      "trivia": [
+        "Which African city has the Victoria & Alfred Waterfront?",
+        "What is the name of the iconic flat-topped mountain in this city?"
+      ]
+    },
+    {
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "aiGeneratedHints": [
+        "This city is the largest in South Africa.",
+        "It was founded during a gold rush in the late 19th century."
+      ],
+      "funFact": [
+        "This city is home to the largest man-made urban forest in the world.",
+        "It is known as 'Joburg' or 'Jozi' by locals."
+      ],
+      "trivia": [
+        "Which African city is home to the Apartheid Museum?",
+        "What is the name of the famous township located near this city?"
+      ]
+    },
+    {
+      "city": "Accra",
+      "country": "Ghana",
+      "aiGeneratedHints": [
+        "This city is the capital of Ghana.",
+        "It is located along the Atlantic Ocean."
+      ],
+      "funFact": [
+        "This city is home to Independence Arch, a symbol of Ghana’s freedom.",
+        "It has one of the busiest markets in West Africa, Makola Market."
+      ],
+      "trivia": [
+        "Which African city is home to Kwame Nkrumah Mausoleum?",
+        "What is the name of the famous beach in this city?"
+      ]
+    },
+    {
+      "city": "Kigali",
+      "country": "Rwanda",
+      "aiGeneratedHints": [
+        "This city is the capital of Rwanda.",
+        "It is known for its cleanliness and green spaces."
+      ],
+      "funFact": [
+        "This city has been ranked as the cleanest in Africa.",
+        "It played a significant role in the recovery from the 1994 Rwandan Genocide."
+      ],
+      "trivia": [
+        "Which African city is home to the Kigali Genocide Memorial?",
+        "What is the name of the main business district in this city?"
+      ]
+    },
+    {
+      "city": "Addis Ababa",
+      "country": "Ethiopia",
+      "aiGeneratedHints": [
+        "This city is the capital of Ethiopia.",
+        "It is home to the African Union headquarters."
+      ],
+      "funFact": [
+        "This city is known as the political capital of Africa.",
+        "It is one of the highest capital cities in the world, sitting over 2,300 meters above sea level."
+      ],
+      "trivia": [
+        "Which African city hosts the African Union headquarters?",
+        "What is the name of the famous cathedral in this city?"
+      ]
+    },
+    {
+      "city": "Marrakech",
+      "country": "Morocco",
+      "aiGeneratedHints": [
+        "This city is famous for its bustling souks and palaces.",
+        "It is known as the 'Red City' due to its distinct building color."
+      ],
+      "funFact": [
+        "This city is home to Jemaa el-Fnaa, one of the busiest squares in Africa.",
+        "It has stunning traditional gardens, including the famous Jardin Majorelle."
+      ],
+      "trivia": [
+        "Which African city is home to the Koutoubia Mosque?",
+        "What is the name of the famous palace in this city?"
+      ]
+    },
+    {
+      "city": "Sydney",
+      "country": "Australia",
+      "aiGeneratedHints": [
+        "This city is the most populous in Australia.",
+        "It is home to a world-famous opera house."
+      ],
+      "funFact": [
+        "This city has the largest natural harbor in the world.",
+        "The Sydney Opera House was inspired by orange segments."
+      ],
+      "trivia": [
+        "Which Australian city has the Harbour Bridge?",
+        "What is the name of the famous beach in this city?"
+      ]
+    },
+    {
+      "city": "Melbourne",
+      "country": "Australia",
+      "aiGeneratedHints": [
+        "This city is known as Australia’s cultural capital.",
+        "It hosts the Australian Open tennis tournament."
+      ],
+      "funFact": [
+        "This city has the world's largest tram network.",
+        "It was once the capital of Australia before Canberra."
+      ],
+      "trivia": [
+        "Which Australian city is famous for its coffee culture?",
+        "What is the name of the iconic sports stadium in this city?"
+      ]
+    },
+    {
+      "city": "Brisbane",
+      "country": "Australia",
+      "aiGeneratedHints": [
+        "This city is the capital of Queensland.",
+        "It is known for its warm climate and outdoor lifestyle."
+      ],
+      "funFact": [
+        "This city is home to the world’s first koala sanctuary.",
+        "It is nicknamed ‘BrisVegas’ due to its entertainment scene."
+      ],
+      "trivia": [
+        "Which Australian city is home to the Story Bridge?",
+        "What is the name of the river that flows through this city?"
+      ]
+    },
+    {
+      "city": "Perth",
+      "country": "Australia",
+      "aiGeneratedHints": [
+        "This city is the capital of Western Australia.",
+        "It is one of the most isolated major cities in the world."
+      ],
+      "funFact": [
+        "This city is closer to Bali than to Sydney.",
+        "It has the highest number of sunny days in Australia."
+      ],
+      "trivia": [
+        "Which Australian city is located on the Swan River?",
+        "What is the name of the famous beach in this city?"
+      ]
+    },
+    {
+      "city": "Adelaide",
+      "country": "Australia",
+      "aiGeneratedHints": [
+        "This city is the capital of South Australia.",
+        "It is known for its wine regions and festivals."
+      ],
+      "funFact": [
+        "This city hosts the world’s largest cabaret festival.",
+        "It was ranked as one of the world’s most livable cities."
+      ],
+      "trivia": [
+        "Which Australian city is home to the Barossa Valley wine region?",
+        "What is the name of the famous cricket ground in this city?"
+      ]
+    },
+    {
+      "city": "Canberra",
+      "country": "Australia",
+      "aiGeneratedHints": [
+        "This city is the capital of Australia.",
+        "It was chosen as a compromise between Sydney and Melbourne."
+      ],
+      "funFact": [
+        "This city was designed by American architect Walter Burley Griffin.",
+        "It is home to the Australian War Memorial and Parliament House."
+      ],
+      "trivia": [
+        "Which Australian city was planned and built from scratch?",
+        "What is the name of the man-made lake in this city?"
+      ]
+    },
+    {
+      "city": "Hobart",
+      "country": "Australia",
+      "aiGeneratedHints": [
+        "This city is the capital of Tasmania.",
+        "It has a famous art museum called MONA."
+      ],
+      "funFact": [
+        "This city is the second oldest in Australia after Sydney.",
+        "It is the gateway to Antarctica for many expeditions."
+      ],
+      "trivia": [
+        "Which Australian city hosts the Sydney to Hobart Yacht Race?",
+        "What is the name of the famous mountain overlooking this city?"
+      ]
+    },
+    {
+      "city": "Seoul",
+      "country": "South Korea",
+      "aiGeneratedHints": [
+        "This city is the capital of South Korea.",
+        "It is home to the iconic N Seoul Tower."
+      ],
+      "funFact": [
+        "This city has the world's fastest average internet speed.",
+        "It is known for its vibrant K-pop and entertainment industry."
+      ],
+      "trivia": [
+        "Which South Korean city is home to Gyeongbokgung Palace?",
+        "What is the name of the famous shopping district in this city?"
+      ]
+    },
+    {
+      "city": "Busan",
+      "country": "South Korea",
+      "aiGeneratedHints": [
+        "This city is the second-largest in South Korea.",
+        "It is known for its beautiful beaches and seafood."
+      ],
+      "funFact": [
+        "This city hosts one of Asia’s biggest film festivals.",
+        "It has the world’s largest department store, Shinsegae Centum City."
+      ],
+      "trivia": [
+        "Which South Korean city is famous for Haeundae Beach?",
+        "What is the name of the famous temple on a seaside cliff in this city?"
+      ]
+    },
+    {
+      "city": "Incheon",
+      "country": "South Korea",
+      "aiGeneratedHints": [
+        "This city is home to South Korea’s largest international airport.",
+        "It was a key site during the Korean War."
+      ],
+      "funFact": [
+        "This city has the country’s only official Chinatown.",
+        "It is known for the Songdo International Business District."
+      ],
+      "trivia": [
+        "Which South Korean city is famous for its airport?",
+        "What is the name of the man-made island in this city?"
+      ]
+    },
+    {
+      "city": "Daegu",
+      "country": "South Korea",
+      "aiGeneratedHints": [
+        "This city is known as the 'Textile City' of South Korea.",
+        "It is one of the hottest cities in the country during summer."
+      ],
+      "funFact": [
+        "This city is famous for its apple production.",
+        "It has a medical district specializing in oriental medicine."
+      ],
+      "trivia": [
+        "Which South Korean city is famous for apples?",
+        "What is the name of the famous traditional medicine market in this city?"
+      ]
+    },
+    {
+      "city": "Daejeon",
+      "country": "South Korea",
+      "aiGeneratedHints": [
+        "This city is known as South Korea’s 'Science and Technology Hub'.",
+        "It is home to KAIST, one of the top universities in Asia."
+      ],
+      "funFact": [
+        "This city hosted the 1993 World Expo.",
+        "It has an extensive underground shopping area in its downtown."
+      ],
+      "trivia": [
+        "Which South Korean city is known for its research institutes?",
+        "What is the name of the major expo park in this city?"
+      ]
+    },
+    {
+      "city": "Gwangju",
+      "country": "South Korea",
+      "aiGeneratedHints": [
+        "This city is known for its rich history of democracy movements.",
+        "It is famous for its delicious local cuisine."
+      ],
+      "funFact": [
+        "This city was at the center of the 1980 Gwangju Uprising.",
+        "It is home to the Gwangju Biennale, a major art exhibition."
+      ],
+      "trivia": [
+        "Which South Korean city is known for the 1980 pro-democracy movement?",
+        "What is the name of the famous spicy dish from this city?"
+      ]
+    },
+    {
+      "city": "Ulsan",
+      "country": "South Korea",
+      "aiGeneratedHints": [
+        "This city is home to the world’s largest automobile assembly plant.",
+        "It is an important hub for the South Korean economy."
+      ],
+      "funFact": [
+        "This city has one of the world’s largest shipyards.",
+        "It is home to Hyundai’s massive industrial complex."
+      ],
+      "trivia": [
+        "Which South Korean city is known for its automotive industry?",
+        "What is the name of the famous rock carving site in this city?"
+      ]
+    },
+    {
+      "city": "Moscow",
+      "country": "Russia",
+      "aiGeneratedHints": [
+        "This city is the capital of Russia.",
+        "It is home to the Kremlin and Red Square."
+      ],
+      "funFact": [
+        "This city has the busiest metro system in Europe.",
+        "It is known for its iconic Saint Basil's Cathedral."
+      ],
+      "trivia": [
+        "Which Russian city is home to the Kremlin?",
+        "What is the name of the river that flows through this city?"
+      ]
+    },
+    {
+      "city": "Saint Petersburg",
+      "country": "Russia",
+      "aiGeneratedHints": [
+        "This city was once the capital of Russia.",
+        "It is famous for its beautiful canals and bridges."
+      ],
+      "funFact": [
+        "This city is known as the 'Venice of the North.'",
+        "It is home to the world-famous Hermitage Museum."
+      ],
+      "trivia": [
+        "Which Russian city is home to the Winter Palace?",
+        "What is the name of the famous white nights festival in this city?"
+      ]
+    },
+    {
+      "city": "Novosibirsk",
+      "country": "Russia",
+      "aiGeneratedHints": [
+        "This city is the largest in Siberia.",
+        "It is known as Russia’s third-largest city."
+      ],
+      "funFact": [
+        "This city has one of the longest metro bridges in the world.",
+        "It is an important scientific and industrial center."
+      ],
+      "trivia": [
+        "Which Russian city is known for Akademgorodok, the research hub?",
+        "What is the name of the famous zoo in this city?"
+      ]
+    },
+    {
+      "city": "Yekaterinburg",
+      "country": "Russia",
+      "aiGeneratedHints": [
+        "This city is located on the border of Europe and Asia.",
+        "It is known for its rich history and industry."
+      ],
+      "funFact": [
+        "This city is where the last Russian Tsar and his family were executed.",
+        "It has one of Russia's tallest skyscrapers, Vysotsky Tower."
+      ],
+      "trivia": [
+        "Which Russian city is famous for the Romanov family's last days?",
+        "What is the name of the mountain range near this city?"
+      ]
+    },
+    {
+      "city": "Kazan",
+      "country": "Russia",
+      "aiGeneratedHints": [
+        "This city is the capital of Tatarstan.",
+        "It is famous for its mix of Russian and Tatar culture."
+      ],
+      "funFact": [
+        "This city has a unique Kremlin that is a UNESCO World Heritage Site.",
+        "It is known as Russia’s sports capital."
+      ],
+      "trivia": [
+        "Which Russian city is famous for Kul Sharif Mosque?",
+        "What is the name of the river that flows through this city?"
+      ]
+    },
+    {
+      "city": "Nizhny Novgorod",
+      "country": "Russia",
+      "aiGeneratedHints": [
+        "This city is located at the confluence of the Volga and Oka rivers.",
+        "It has a famous Kremlin and historic architecture."
+      ],
+      "funFact": [
+        "This city was a major trade center in the Russian Empire.",
+        "It was renamed Gorky during the Soviet era."
+      ],
+      "trivia": [
+        "Which Russian city is famous for its historic Kremlin overlooking the Volga?",
+        "What was this city's name during the Soviet period?"
+      ]
+    },
+    {
+      "city": "Samara",
+      "country": "Russia",
+      "aiGeneratedHints": [
+        "This city is known for its aerospace and defense industries.",
+        "It is located on the banks of the Volga River."
+      ],
+      "funFact": [
+        "This city was a major manufacturing hub for Soviet space exploration.",
+        "It has one of the tallest railway stations in Europe."
+      ],
+      "trivia": [
+        "Which Russian city produced parts for the Soyuz spacecraft?",
+        "What is the name of the famous brewery based in this city?"
+      ]
+    },
+    {
+      "city": "Omsk",
+      "country": "Russia",
+      "aiGeneratedHints": [
+        "This city is one of Siberia's largest urban centers.",
+        "It was an important fortress in the 18th century."
+      ],
+      "funFact": [
+        "Fyodor Dostoevsky was exiled here and wrote some of his works.",
+        "This city played a key role during the Russian Civil War."
+      ],
+      "trivia": [
+        "Which famous Russian writer was exiled in this city?",
+        "What is the name of the major river that flows through this city?"
+      ]
+    },
+    {
+      "city": "Karachi",
+      "country": "Pakistan",
+      "aiGeneratedHints": [
+        "This city is the largest in Pakistan.",
+        "It is home to the country's busiest port."
+      ],
+      "funFact": [
+        "This city is known as the 'City of Lights.'",
+        "It has one of the largest urban populations in the world."
+      ],
+      "trivia": [
+        "Which Pakistani city is home to Quaid-e-Azam’s Mausoleum?",
+        "What is the name of the famous beach in this city?"
+      ]
+    },
+    {
+      "city": "Lahore",
+      "country": "Pakistan",
+      "aiGeneratedHints": [
+        "This city is the cultural capital of Pakistan.",
+        "It is home to the historic Badshahi Mosque."
+      ],
+      "funFact": [
+        "This city is famous for its vibrant food scene.",
+        "It was the capital of the Mughal Empire at one point."
+      ],
+      "trivia": [
+        "Which Pakistani city has the famous Lahore Fort?",
+        "What is the name of the famous food street in this city?"
+      ]
+    },
+    {
+      "city": "Islamabad",
+      "country": "Pakistan",
+      "aiGeneratedHints": [
+        "This city is the capital of Pakistan.",
+        "It is known for its modern infrastructure and greenery."
+      ],
+      "funFact": [
+        "This city was built in the 1960s as a planned capital.",
+        "It is home to the largest mosque in Pakistan, Faisal Mosque."
+      ],
+      "trivia": [
+        "Which Pakistani city is home to Faisal Mosque?",
+        "What is the name of the famous hill range near this city?"
+      ]
+    },
+    {
+      "city": "Rawalpindi",
+      "country": "Pakistan",
+      "aiGeneratedHints": [
+        "This city is a twin city of Islamabad.",
+        "It has a strong military presence."
+      ],
+      "funFact": [
+        "This city is home to Pakistan’s military headquarters.",
+        "It is known for Raja Bazaar, one of the oldest markets."
+      ],
+      "trivia": [
+        "Which Pakistani city is famous for its military headquarters?",
+        "What is the name of the famous old market in this city?"
+      ]
+    },
+    {
+      "city": "Faisalabad",
+      "country": "Pakistan",
+      "aiGeneratedHints": [
+        "This city is known as the 'Manchester of Pakistan.'",
+        "It is a major textile hub in the country."
+      ],
+      "funFact": [
+        "This city was originally named Lyallpur.",
+        "It has a unique clock tower at its center."
+      ],
+      "trivia": [
+        "Which Pakistani city is famous for its textile industry?",
+        "What was this city’s original name?"
+      ]
+    },
+    {
+      "city": "Peshawar",
+      "country": "Pakistan",
+      "aiGeneratedHints": [
+        "This is one of the oldest cities in South Asia.",
+        "It is a major gateway to Afghanistan."
+      ],
+      "funFact": [
+        "This city is famous for its historic Qissa Khwani Bazaar.",
+        "It has a rich Pashtun cultural heritage."
+      ],
+      "trivia": [
+        "Which Pakistani city has the famous Bala Hisar Fort?",
+        "What is the name of the historic marketplace in this city?"
+      ]
+    },
+    {
+      "city": "Multan",
+      "country": "Pakistan",
+      "aiGeneratedHints": [
+        "This city is known as the 'City of Saints.'",
+        "It is famous for its ancient shrines and Sufi culture."
+      ],
+      "funFact": [
+        "This city is famous for its blue pottery.",
+        "It has one of the oldest civilizations in South Asia."
+      ],
+      "trivia": [
+        "Which Pakistani city is famous for the shrine of Shah Rukn-e-Alam?",
+        "What is this city's traditional handicraft called?"
+      ]
+    },
+    {
+      "city": "Quetta",
+      "country": "Pakistan",
+      "aiGeneratedHints": [
+        "This city is the capital of Balochistan.",
+        "It is known as the 'Fruit Garden of Pakistan.'"
+      ],
+      "funFact": [
+        "This city was heavily damaged in a 1935 earthquake.",
+        "It is home to the famous Hanna Lake."
+      ],
+      "trivia": [
+        "Which Pakistani city is famous for its dry fruit markets?",
+        "What is the name of the famous lake in this city?"
+      ]
+    },
+    {
+      "city": "Sialkot",
+      "country": "Pakistan",
+      "aiGeneratedHints": [
+        "This city is known for producing sports goods.",
+        "It has a rich industrial history."
+      ],
+      "funFact": [
+        "This city produces over 70% of the world’s footballs.",
+        "It is home to Pakistan’s first privately owned airport."
+      ],
+      "trivia": [
+        "Which Pakistani city is famous for manufacturing footballs?",
+        "What is the name of Pakistan’s first private airport in this city?"
+      ]
+    },
+    {
+      "city": "São Paulo",
+      "country": "Brazil",
+      "aiGeneratedHints": [
+        "This is the largest city in South America.",
+        "It is a major financial hub of Brazil."
+      ],
+      "funFact": [
+        "This city hosts one of the largest Pride parades in the world.",
+        "It has more helicopters per capita than any other city."
+      ],
+      "trivia": [
+        "Which South American city is known for Avenida Paulista?",
+        "What is the most populous city in Brazil?"
+      ]
+    },
+    {
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "aiGeneratedHints": [
+        "This city is the capital of Argentina.",
+        "It is famous for tango dancing and European-style architecture."
+      ],
+      "funFact": [
+        "This city is known as the 'Paris of South America.'",
+        "It has one of the highest bookstore-to-population ratios in the world."
+      ],
+      "trivia": [
+        "Which South American city is home to the Obelisk?",
+        "What dance is famously associated with this city?"
+      ]
+    },
+    {
+      "city": "Lima",
+      "country": "Peru",
+      "aiGeneratedHints": [
+        "This city is the capital of Peru.",
+        "It is located on the Pacific coast of South America."
+      ],
+      "funFact": [
+        "This city is home to the oldest university in the Americas.",
+        "It has some of the best seafood cuisine, including ceviche."
+      ],
+      "trivia": [
+        "Which South American city is famous for Plaza Mayor?",
+        "What is the name of the famous Peruvian seafood dish?"
+      ]
+    },
+    {
+      "city": "Santiago",
+      "country": "Chile",
+      "aiGeneratedHints": [
+        "This city is the capital of Chile.",
+        "It is surrounded by the Andes Mountains."
+      ],
+      "funFact": [
+        "This city has one of the most extensive metro systems in Latin America.",
+        "It experiences both summer and winter sports within a short drive."
+      ],
+      "trivia": [
+        "Which South American city is near the Andes Mountains?",
+        "What is the capital of Chile?"
+      ]
+    },
+    {
+      "city": "Bogotá",
+      "country": "Colombia",
+      "aiGeneratedHints": [
+        "This city is the capital of Colombia.",
+        "It is known for its high altitude location."
+      ],
+      "funFact": [
+        "This city has the largest network of bicycle paths in Latin America.",
+        "It is home to the famous Gold Museum."
+      ],
+      "trivia": [
+        "Which South American city has the Monserrate sanctuary?",
+        "What is the name of the famous museum in Bogotá?"
+      ]
+    },
+    {
+      "city": "Quito",
+      "country": "Ecuador",
+      "aiGeneratedHints": [
+        "This city is the capital of Ecuador.",
+        "It is the second-highest capital city in the world."
+      ],
+      "funFact": [
+        "This city is close to the equator and has a monument marking the spot.",
+        "Its historic center is one of the best-preserved in South America."
+      ],
+      "trivia": [
+        "Which South American city has a monument marking the equator?",
+        "What is the capital of Ecuador?"
+      ]
+    },
+    {
+      "city": "Salvador",
+      "country": "Brazil",
+      "aiGeneratedHints": [
+        "This city is known for its Afro-Brazilian culture.",
+        "It was the first capital of Brazil."
+      ],
+      "funFact": [
+        "This city hosts one of the biggest Carnival celebrations in the world.",
+        "It has a historic center called Pelourinho, a UNESCO World Heritage Site."
+      ],
+      "trivia": [
+        "Which South American city is famous for its Afro-Brazilian culture?",
+        "What is the name of its historic UNESCO-recognized district?"
+      ]
+    }
+  ]
+  
+  
