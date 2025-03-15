@@ -11,29 +11,39 @@ export class LocationService {
     private readonly locationRepository: Repository<Location>,
     @InjectRepository(Users) private readonly userRepository: Repository<Users>,
   ) {}
-
   async getRandomLocation() {
     const locations = await this.locationRepository.find();
     if (!locations.length) return null;
 
+    // Pick a random location
     const randomLocation =
       locations[Math.floor(Math.random() * locations.length)];
+
+    // Select 2 hints randomly
     const hints = randomLocation.aiGeneratedHints
       .sort(() => 0.5 - Math.random())
       .slice(0, 2);
-    const allCountries = locations.map((loc) => loc.country);
-    const incorrectOptions = allCountries
-      .filter((country) => country !== randomLocation.country)
+
+    // Get all unique city names excluding the correct one
+    const allCities = [...new Set(locations.map((loc) => loc.city))].filter(
+      (city) => city !== randomLocation.city,
+    );
+
+    // Select 2 incorrect options (if available)
+    const incorrectOptions = allCities
       .sort(() => 0.5 - Math.random())
-      .slice(1);
+      .slice(0, 2);
+
+    // Ensure exactly 3 options (1 correct city + 2 incorrect cities)
+    const options = [...incorrectOptions, randomLocation.city].sort(
+      () => 0.5 - Math.random(),
+    );
 
     return {
       id: randomLocation.id,
       hints,
-      options: [...incorrectOptions, randomLocation.country].sort(
-        () => 0.5 - Math.random(),
-      ),
-      correctAnswer: randomLocation.country,
+      options,
+      correctAnswer: randomLocation.city, // Correct city
       funFacts: randomLocation.funFacts,
     };
   }
