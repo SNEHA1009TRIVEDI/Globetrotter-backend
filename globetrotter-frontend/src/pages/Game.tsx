@@ -8,6 +8,8 @@ import {
   API_RESET_SCORE,
 } from "../../src/constants";
 import ChallengeFriend from "../components/ChallengeFriend";
+import "../styles/Game.css";
+import Confetti from "react-confetti";
 
 const Game: React.FC = () => {
   const [clues, setClues] = useState<string[]>([]);
@@ -19,6 +21,8 @@ const Game: React.FC = () => {
   const [locationId, setLocationId] = useState<number>(0);
   const [visibleClues, setVisibleClues] = useState<number>(1); // Controls how many clues are shown
   const [loading, setLoading] = useState<boolean>(false);
+  const [showConfettiState, setShowConfettiState] = useState<boolean>(false); // Confetti state
+  const [showMessage, setShowMessage] = useState<boolean>(false);
 
   const navigate = useNavigate();
 
@@ -52,26 +56,25 @@ const Game: React.FC = () => {
   const resetScore = async () => {
     setLoading(true);
     try {
-      const token = localStorage.getItem('token');
-     
+      const token = localStorage.getItem("token");
+
       const response = await axios.post(
-        API_RESET_SCORE, 
+        API_RESET_SCORE,
         {},
         { headers: { Authorization: `Bearer ${token}` } }
       );
-  
+
       if (response.data.success) {
         setScore(0);
         setScore(0);
         setIncorrectAttempts(0);
-        alert('Your score has been reset!');
+        alert("Your score has been reset!");
       }
     } catch (error) {
-      console.error('Error resetting score:', error);
+      console.error("Error resetting score:", error);
     }
     setLoading(false);
   };
-  
 
   const updateScore = async () => {
     try {
@@ -104,20 +107,25 @@ const Game: React.FC = () => {
         showSadFace();
       }
 
-      setFunFact(response.data.funFact);
+      setFunFact(response.data.funFacts[0]);
+      console.log("funFacts", response.data.funFacts[0]);
     } catch (error) {
       console.error("Error submitting answer:", error);
     }
   };
 
   const showConfetti = () => {
-    fetchNewLocation()
-    alert("🎉 Correct! Confetti Animation Here!");
+    setShowConfettiState(true);
+    setShowMessage(true);
+    setTimeout(() => {
+      setShowConfettiState(false);
+      setShowMessage(false);
+    }, 5000);
   };
 
   const showSadFace = () => {
-    fetchNewLocation()
-    alert("😢 Incorrect! Sad Face Animation Here!");
+    fetchNewLocation();
+    alert("😢 Incorrect!");
   };
 
   const revealNextHint = () => {
@@ -128,7 +136,7 @@ const Game: React.FC = () => {
 
   return (
     <div className="game-container">
-      <h2>Guess the Destination!</h2>
+      <h1>Guess the Place!!🤓</h1>
 
       {clues.length > 0 && (
         <div>
@@ -139,47 +147,56 @@ const Game: React.FC = () => {
           ))}
         </div>
       )}
-
-      {options.map((option) => (
-        <button
-          key={option}
-          onClick={() => submitAnswer(option)}
-          disabled={selectedAnswer !== null || loading}
-          className={selectedAnswer === option ? "selected" : ""}
-        >
-          {option}
-        </button>
-      ))}
+      <div className="game-options">
+        {options.map((option) => (
+          <button
+            key={option}
+            onClick={() => submitAnswer(option)}
+            disabled={selectedAnswer !== null || loading}
+            className={selectedAnswer === option ? "selected" : ""}
+          >
+            {option}
+          </button>
+        ))}
+      </div>
 
       {funFact && <p className="fun-fact">Fun Fact: {funFact}</p>}
+      <div className="score-container">
+        <p>
+          <strong>Correct Attempts:</strong> {score}
+        </p>
+        <p>
+          <strong>Incorrect Attempts:</strong> {incorrectAttempts}
+        </p>
+      </div>
 
-      <p>
-        <strong>Correct Attempts:</strong> {score}
-      </p>
-      <p>
-        <strong>Incorrect Attempts:</strong> {incorrectAttempts}
-      </p>
+      <div className="button-container">
+        <button onClick={fetchNewLocation}>Next</button>
+        <button onClick={resetScore}>Play Again</button>
+      </div>
 
-      <button onClick={fetchNewLocation}>
-        Next
-      </button>
-      <button onClick={resetScore}>
-        Play Again
-      </button>
       {visibleClues < clues.length && (
-        <div>
+        <>
           <p>
             <strong>Hints Remaining:</strong> {clues.length - visibleClues}
           </p>
-          <button onClick={revealNextHint} disabled={loading}>
-            Get Another Hint
-          </button>
-        </div>
+          <div className="hint-actions">
+            <button onClick={revealNextHint} disabled={loading}>
+              Get Another Hint
+            </button>
+          </div>
+        </>
       )}
-      {
-        
-      }
       <ChallengeFriend />
+
+      <div className="confetti-container">
+        {showConfettiState && <Confetti />}
+        {showMessage && (
+          <div className="correct-message">
+            <h2>Correct!! 🎉</h2>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

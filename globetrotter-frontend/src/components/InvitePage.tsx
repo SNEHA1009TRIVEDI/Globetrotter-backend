@@ -2,40 +2,21 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 import { AUTH_REGISTER, API_INVITE_SCORE } from "../constants";
+import "../styles/InvitePage.css";
 
 const InvitePage: React.FC = () => {
-  const { inviteUserId } = useParams(); // Extract from route
+  const { inviteUserScore } = useParams(); // Extract from route
   const [username, setUsername] = useState("");
-  const [score, setScore] = useState<number>(0);
-  const [incorrectAttempts, setIncorrectAttempts] = useState<number>(0);
+  const [score, setScore] = useState<string>("");
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
-
   // ✅ Function to update score using inviteUserId
-  const updateScore = async () => {
-    try {
-      const token = localStorage.getItem("token");
-
-      const response = await axios.get(API_INVITE_SCORE, {
-        headers: { Authorization: `Bearer ${token}` },
-        params: {
-          userId: inviteUserId, // ✅ Extracted from route
-          isGuestUser: true,
-        },
-      });
-
-      setScore(response.data.correctAttempts);
-      setIncorrectAttempts(response.data.incorrectAttempts);
-    } catch (error) {
-      console.error("Error updating score:", error);
-    }
-  };
 
   useEffect(() => {
-    if (inviteUserId) {
-      updateScore(); // Fetch score only if inviteUserId exists
+    if (inviteUserScore) {
+      setScore(inviteUserScore); // Fetch score only if inviteUserId exists
     }
-  }, [inviteUserId]);
+  }, [inviteUserScore]);
 
   const handleSubmit = async () => {
     if (!username.trim()) {
@@ -52,7 +33,7 @@ const InvitePage: React.FC = () => {
       });
 
       if (response.data.success) {
-        console.log("respinse",response);
+        console.log("respinse", response);
         localStorage.setItem("token", response.data.token); // Store JWT token
         localStorage.setItem("inviterScore", response.data.inviterScore); // Store inviter’s score
         navigate("/game"); // Redirect to game
@@ -67,7 +48,7 @@ const InvitePage: React.FC = () => {
 
   return (
     <div className="invite-container">
-      <h2>Enter Your Name to Join the Challenge</h2>
+      <h2>Can you guess the destination? 🌍 Play now!🙃</h2>
       <input
         type="text"
         placeholder="Enter your name"
@@ -79,10 +60,9 @@ const InvitePage: React.FC = () => {
       </button>
 
       {/* Display score */}
-      {inviteUserId && (
-        <div>
+      {inviteUserScore && (
+        <div className="invitie">
           <p>Your Inviter's Score: {score}</p>
-          <p>Incorrect Attempts: {incorrectAttempts}</p>
         </div>
       )}
     </div>

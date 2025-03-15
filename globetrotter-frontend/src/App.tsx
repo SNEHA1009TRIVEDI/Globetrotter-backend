@@ -10,7 +10,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/game" element={<Game />} />
-        <Route path="/invite/:inviteToken/inviteUser/:inviteUserId" element={<InvitePage />} />
+        <Route path="/invite/:inviteToken/inviteUser/:inviteUserScore" element={<InvitePage />} />
       </Routes>
     </BrowserRouter>
   );

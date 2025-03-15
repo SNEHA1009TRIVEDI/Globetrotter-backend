@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { AUTH_REGISTER, AUTH_LOGIN } from "../../src/constants";
 import { AuthResponse } from "../../src/types/auth";
+import "../styles/Login.css";
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState<string>("");
@@ -63,7 +64,7 @@ const Login: React.FC = () => {
   return (
     <div className="login-container">
       <div className="login-form">
-        <h2>Globetrotter Game</h2>
+        <h1>Welcome to the Globetrotter World !!!</h1>
         {successMessage && <p className="success">{successMessage}</p>}{" "}
         {/* Success Message */}
         <input
@@ -90,6 +91,10 @@ const Login: React.FC = () => {
           </button>
         </p>
         {error && <p className="error">{error}</p>} {/* Error Message */}
+      </div>
+
+      <div className="login-image">
+        <img src="/public/globetrotter.png" alt="Globetrotter Game" />
       </div>
     </div>
   );
