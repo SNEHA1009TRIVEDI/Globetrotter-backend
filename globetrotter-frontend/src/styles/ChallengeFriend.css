@@ -1,0 +1,66 @@
+/* The overlay background for the popup */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* Ensure it's above other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* When the popup is shown, make the overlay visible */
+.popup-overlay.show {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* The actual popup box */
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: black;
+  z-index: 1001; /* Ensure it appears above the overlay */
+}
+
+/* Popup close button styles */
+.popup button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.popup button:hover {
+  background-color: #e53e33;
+}
+
+/* Input field style */
+.popup input {
+  width: 97%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Image placeholder style */
+.popup img {
+  width: 200px;
+}

@@ -1,0 +1,121 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+  margin-left: 450px;
+}
+
+/* 🔹 Header */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* 🔹 Clues Section */
+.clue-container {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+/* 🔹 Options (Side by Side) */
+.game-options {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.game-options button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  transition: 0.3s;
+}
+
+.game-options button:hover {
+  background-color: #218838;
+}
+
+/* 🔹 Score Section (Side by Side) */
+.score-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+/* 🔹 Next & Play Again (Side by Side) */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  /* background-color: #28a745; */
+  color: white;
+  transition: 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #218838;
+}
+
+/* 🔹 Hints Section */
+.hint-container {
+  margin-bottom: 20px;
+}
+
+/* 🔹 Get Another Hint & Challenge a Friend (Side by Side) */
+.hint-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 353px;
+}
+
+.hint-actions button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  transition: 0;
+}
+.hint-actions button:hover {
+  background-color: #218838;
+}
+
+.confetti-container {
+  position: relative;
+}
+
+.correct-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  z-index: 10; /* Make sure it's above the confetti */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional: Add a shadow for better visibility */
+}
