@@ -55,7 +55,7 @@ export class LocationService {
     if (!location) throw new NotFoundException('Invalid location');
 
     const isCorrect =
-      userAnswer.toLowerCase() === location.country.toLowerCase();
+      userAnswer.toLowerCase() === location.city.toLowerCase();
 
     if (isCorrect) {
       await this.userRepository.increment({ id: userId }, 'correctAttempts', 1);
