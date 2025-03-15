@@ -121,6 +121,7 @@ const Game: React.FC = () => {
       setShowConfettiState(false);
       setShowMessage(false);
     }, 5000);
+    alert("🥳 Correct!");
   };
 
   const showSadFace = () => {
