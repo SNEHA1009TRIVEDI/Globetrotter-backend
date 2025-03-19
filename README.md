@@ -5,6 +5,7 @@ The Globetrotter Challenge is a full-stack travel guessing game that presents pl
 
 ## Tech Stack
 
+
 ### Frontend:
 - **React.js** (UI framework)
 - **TypeScript** (for type safety)

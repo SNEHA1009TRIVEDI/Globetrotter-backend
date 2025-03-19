@@ -6,9 +6,11 @@ import { CONFIG } from './configs/config';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  // Enable CORS using config
+  // Enable CORS with proper configuration for different environments
   app.enableCors({
-    origin: CONFIG.FRONTEND_URL, // Use from config or default
+    origin: CONFIG.FRONTEND_URL
+      ? [CONFIG.FRONTEND_URL, 'https://globetrotter-ten-mu.vercel.app/']
+      : '*',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     allowedHeaders: 'Content-Type, Authorization',
     credentials: true, // Allow cookies and auth headers
